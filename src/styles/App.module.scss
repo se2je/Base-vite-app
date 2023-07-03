@@ -1,0 +1,16 @@
+@import './vars.scss';
+@import './reset.scss';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: $c-def;
+  font-size: $fz-def;
+}
+
+.app {
+  min-height: 100vh;
+}
